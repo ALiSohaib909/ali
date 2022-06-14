@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="90dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/white"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="5"
+        android:focusable="false"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_height="89dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:paddingLeft="40dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/plan_name"
+                android:text="PREMIUM"
+                android:focusable="false"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/plan_rate"
+                android:text="N600"
+                android:focusable="false"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:id="@+id/planStatus"
+            android:focusable="false"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:src="@drawable/selected_subscription_item"
+            android:layout_height="25dp" />
+
+
+
+
+    </LinearLayout>
+    
+
+
+</RelativeLayout>

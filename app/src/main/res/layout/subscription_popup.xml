@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/profile_background"
+    >
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="446dp"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="446dp"
+        android:src="@drawable/subscription_popup"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:text="07 DAYS"
+        android:id="@+id/expiration_date"
+        android:paddingBottom="40dp"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/subscribe_base"
+        android:id="@+id/subscribe"/>
+
+</RelativeLayout>
+</RelativeLayout>

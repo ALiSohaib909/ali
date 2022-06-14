@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_background"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_btn" />
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/home_icon" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/header"
+        android:gravity="center"
+        android:text="Payment Summary"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="200dp"
+        android:layout_below="@+id/main_text"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/edit_text"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Cart"
+                    android:paddingTop="7dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@color/help2"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="30dp"
+                android:background="@color/edit_text"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_weight="1.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Premium"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="30dp"
+                        android:id="@+id/plan_name"
+                        android:textColor="@android:color/white"
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="140dp"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/dropdown"
+                        android:layout_gravity="right"
+                        android:layout_height="22dp"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/edit_text"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="N500"
+                    android:background="@color/help2"
+                    android:id="@+id/plan_rate"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:id="@+id/recovery_plan_header_line"
+                android:layout_marginLeft="30dp"
+                android:background="@color/edit_text"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:visibility="gone"
+                android:id="@+id/recovery_plan_view"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Recovery Plan"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="30dp"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/edit_text"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="N500"
+                    android:id="@+id/recovery_plan"
+                    android:background="@color/help2"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="30dp"
+                android:background="@color/edit_text"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Vat (5%)"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="30dp"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/edit_text"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="N500"
+                    android:id="@+id/vat"
+                    android:background="@color/help2"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="30dp"
+                android:background="@color/edit_text"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_weight="1.5">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Total"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="30dp"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/edit_text"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="N500"
+                    android:background="@color/help2"
+                    android:id="@+id/total_rate"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_height="45dp"
+            android:layout_width="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:id="@+id/continue_button"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:text="Proceed to payments"
+            android:background="@drawable/transperent" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="330dp"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:text="Save more than 80% by subscribing for one year plan."
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

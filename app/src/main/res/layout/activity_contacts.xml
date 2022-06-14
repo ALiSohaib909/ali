@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/contact_toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_height="35dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back_btn"
+            android:id="@+id/back"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/home_icon"
+            android:id="@+id/home"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/number_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ten"
+        android:gravity="center_horizontal"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/contact_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cont_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_below="@id/number_contacts"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/sixty"
+        android:scrollbars="vertical" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/cont_backup"
+            android:layout_width="137dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/backup_contacts"
+            android:textColor="#fff"
+            android:layout_marginBottom="9dp"
+            />
+
+        <Button
+            android:id="@+id/retrive"
+            android:layout_width="137dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/retrive"
+            android:textColor="#fff"
+            android:layout_marginBottom="9dp"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

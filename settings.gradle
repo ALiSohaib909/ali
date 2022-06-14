@@ -1,0 +1,2 @@
+include ':hiddencamera'
+include ':app',  ':prodiagnosticsSDK',  ':lib'

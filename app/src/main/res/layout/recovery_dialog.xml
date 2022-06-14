@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/transparent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="@drawable/rounded_button_white"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:minHeight="400dp"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Subscribe for"
+            android:focusable="false"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="RECOVERY PLAN \nN1,000 Valid till usage"
+            android:focusable="false"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Available for Standard Plans, T&amp;C applies"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="220dp"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:id="@+id/with_recovery"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:text="Continue with \n Recovery plan"
+            android:background="@drawable/recoveryselected" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="220dp"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/without_recovery"
+            android:layout_gravity="center"
+            android:textColor="@color/base_color"
+            android:text="Continue without \n Recovery plan"
+            android:background="@drawable/recovery_unselected" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

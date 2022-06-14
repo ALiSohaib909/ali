@@ -1,0 +1,253 @@
+<resources>
+    <string name="app_name">PINS</string>
+    <string name="card_number">Card number</string>
+    <string name="cvv">CVV</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">YYYY</string>
+    <string name="create_token">Create token</string>
+    <string name="no_card_yet">No card yet</string>
+    <string name="no_token">No token</string>
+    <string name="token_null_message">Token was null</string>
+    <string name="token_not_gotten">Unable to get token</string>
+    <string name="sample_card">4123450131001381</string>
+    <string name="sample_cvv">883</string>
+    <string name="sample_month">01</string>
+    <string name="sample_year">2020</string>
+    <string name="no_transaction_yet">No transaction yet</string>
+    <string name="amount_in_kobo">Amount in Kobo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="find_phone">Find My Phone</string>
+    <string name="find_phone_google">Find My Phone(Google)</string>
+    <string name="anti_theft">Antitheft</string>
+    <string name="sim_track">Sim Tracking</string>
+    <string name="cloud_back">Cloud Backup</string>
+    <string name="insure">Insure My Phone</string>
+    <string name="pay_now">Pay now</string>
+    <string name="remote_wipe">Remote Wipe</string>
+
+    <string name="add_media">Add Media</string>
+    <string name="lock">Lock Phone</string>
+    <string name="scan_app">Scan apps</string>
+    <string name="scan_storage">Scan storage</string>
+    <string name="scan_now">Scan now</string>
+    <string name="scan_history">Scan History</string>
+    <string name="avl_permissionGroup">AVL SDK</string>
+    <string name="avl_permissionDescription">AVL SDK</string>
+    <string name="avl_permissionLabel">AVL SDK</string>
+
+    <string name="logout_text1">To logout kindly contact Pins Customer Support on unit 08180005172</string>
+    <string name="logout_text2">Be informed that this authentication process is for security reasons</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="sucure">Easily secure your mobile.</string>
+    <string name="remote_lock">User can set the phone securitylock
+        remotely useing a web panel, which corresponds to the
+        registered device. (For first time, user
+        will login through mobile device and then he can login through
+        web panel.)
+    </string>
+
+    <string name="remote_track">The GPS service of the device can be
+    fired through our web panel and can track the device location remotel.</string>
+
+    <string name="pin_intruder">In this feature, when user enters
+    incorrect pin, the image will be snapped from front-faced camera
+    and image will be mailed to the user.</string>
+    <string name="setting_text">
+        Change your notification and sound settings
+       </string>
+    <string name="setting_text1">
+        Solet cetero et vel, vis ea diam decore deseruisse, dicit legendos dignissim sea te. Mea errem expetendis ex, te mel inimicus explicari, sit virtute tibique verterem ne.
+    </string>
+    <string name="image_action">Complete action using</string>
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="recovery">Recovery Mode</string>
+        <string name="reset_text">Reset Code</string>
+        <string name="question_text">Question</string>
+    <string name="total_scan">Total scanned apps</string>
+    <string name="good_scan">Apps in good health</string>
+    <string name="bad_scan">Virus infected apps</string>
+
+    <string name="reset_code">Reset-mode: This sends a reset code in an email to the user, User enters the code to initiate password recovery.</string>
+<string name="question">Question: A question set by the user is displayed to the user, Users is meant to answer the question correctly to initiate password recovery.</string>
+
+    <string name="result_image_desc">crop result</string>
+
+    <string name="main_drawer_load">Load Image for cropping</string>
+    <string name="main_drawer_open">Open navigation drawer</string>
+    <string name="main_drawer_close">Close navigation drawer</string>
+
+    <string name="main_action_crop">CROP</string>
+    <string name="main_action_rotate">Rotate 90 degrees clockwise</string>
+    <string name="drawer_option_title">Crop View Presets</string>
+    <string name="drawer_option_oval">Circular</string>
+    <string name="drawer_option_rect">Rectangular</string>
+    <string name="drawer_option_min_max">Min/Max limits override</string>
+    <string name="drawer_option_customized_overlay">Customized Overlay</string>
+    <string name="drawer_option_scale_center">Scale Center Inside</string>
+    <string name="drawer_option_title2">Customization Toggles</string>
+    <string name="drawer_option_toggle_scale">Image Scale: %1s</string>
+    <string name="drawer_option_toggle_shape">Crop Shape: %1s</string>
+    <string name="drawer_option_toggle_guidelines">Guidelines: %1s</string>
+    <string name="drawer_option_toggle_aspect_ratio">Aspect Ratio: %1s</string>
+    <string name="drawer_option_toggle_auto_zoom">Auto zoom: %1s</string>
+    <string name="drawer_option_toggle_max_zoom">Max zoom level: %1s</string>
+    <string name="drawer_option_set_initial_crop_rect">Set initial crop rectangle</string>
+    <string name="drawer_option_reset_crop_rect">Reset crop rectangle to initial</string>
+    <string name="drawer_option_toggle_multitouch">Multitouch: %1s</string>
+    <string name="drawer_option_toggle_show_overlay">Show Overlay: %1s</string>
+    <string name="drawer_option_toggle_show_progress_bar">Show Progress Bar: %1s</string>
+    <string name="facebook_app_id">2099424803708154</string>
+    <string name="fb_login_protocol_scheme">fb2099424803708154</string>
+
+    <string name="free_subscription">
+<![CDATA[
+<p>You are currently on <b>FREE TRIAL</b> version which will expire in </p>
+]]>
+</string>
+    <string name="add_device_account">Do you want to add this device in your account?</string>
+    <string name="device_admin_disclosure_title">PinsApp as a Android Device Administration disclosure</string>
+    <string name="device_admin_disclosure_message">PinsApp requires Android Device Administration API in case your device was lost or stolen so that you can access it and perform actions that might lead to getting it back.</string>
+    <string name="app_lock_disclosure_title">Never worry about losing your information</string>
+    <string name="app_lock_disclosure_message">Prevent and protect your information from unauthorized access. Keep your bank info, images, documents etc safer!</string>
+    <string name="payment_dialog_title">PinsApp payment policy</string>
+    <string name="payment_dialog_message">PinsApp requires you to pay for using this highly robust technology. More description about payment process and other things</string>
+    <string name="per_year"> /y</string>
+    <string name="per_month"> /m</string>
+    <string name="payment_should_renew_sub_dialog_title">Your subscription is aboout to expier</string>
+    <string name="payment_should_renew_sub_dialog_message"><![CDATA[Go to Play Store App -> tap hamburger menu on left hand side -> select subscriptions -> choose PINSAPP and on the bottom renew subscription.]]></string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="subscribe_button">Start</string>
+    <string name="error_title">Error</string>
+    <string name="error_cannot_get_prices">Can not get data</string>
+    <string name="error_permission">"Unable to get Permission"</string>
+    <string name="ikarus_infection_found_in_file">"Infection found in file: "</string>
+    <string name="ikarus_database_updated_started">"Database update started."</string>
+    <string name="ikarus_database_updated">"Database update completed."</string>
+    <string name="ikarus_start_scan">"Start scan"</string>
+    <string name="ikarus_scan_completed">"Scan completed"</string>
+    <string name="ikarus_infection_found">"Infection found"</string>
+
+
+
+    <!--paymentChoose-->
+    <string name="paymentChoose_title">"Account Activation"</string>
+    <string name="paymentChoose_subtitle">"You are one step away from unlocking a new way of protecting your phone.\n Activate now to use this feature"</string>
+    <string name="paymentChoose_google_pay_title">"Google Play Store via Google Play"</string>
+    <string name="paymentChoose_google_pay_subtitle">""</string>
+    <string name="paymentChoose_instore_title">"Instore Activation"</string>
+    <string name="paymentChoose_instore_subtitle">"(Available for Nigeria Users Only)"</string>
+    <string name="paymentChoose_card_title">"Card Payment"</string>
+    <string name="paymentChoose_card_subtitle">""</string>
+    <string name="paymentChoose_recovery_title">"recovery plan"</string>
+    <string name="paymentChoose_ussd_subtitle">"(Available for Nigeria Users Only)"</string>
+    <string name="paymentChoose_ussd_title">"USSD"</string>
+    <string name="paymentChoose_recovery_subtitle">"Recovery cost is ₦%1$s"</string>
+
+    <!--paymentPlan-->
+    <string name="paymentPlan_per_year">" per Year"</string>
+    <string name="paymentPlan_per_month">" per Month"</string>
+
+
+    <!--paymentSummary-->
+    <string name="paymentSummary_month">"1 Month Subscription"</string>
+    <string name="paymentSummary_year">"1 Year Subscription"</string>
+
+    <!--paymentCode-->
+    <string name="paymentCode_hint">"Enter Store Activation Code"</string>
+
+    <!--paymentResult-->
+    <string name="paymentResult_success_title">"Activation Successful"</string>
+    <string name="paymentResult_failed_title">"Activation Failed"</string>
+
+    <!--paymentUssd-->
+    <string name="paymentUssd_title">"ussd payment"</string>
+    <string name="paymentUssd_subtitle">"Now you can subscribe to the PinsApp right on your phone through USSD"</string>
+    <string name="paymentUssd_button_title">"dial code"</string>
+    <string name="paymentUssdProgtess_subtitle_one">"You are one step away form enjoying total security"</string>
+    <string name="paymentUssdProgtess_subtitle_two">"Please wait while we validate your subscription"</string>
+
+
+    <!--emailVerification-->
+    <string name="emailVerification_title">"Email Verification"</string>
+    <string name="emailVerification_description">"You have requested to turn on email notification for intruder alert.\n  Kindly verify your email below."</string>
+    <string name="emailVerification_hint">"Enter valid email address"</string>
+
+
+    <!--emailVerificationConfirm-->
+    <string name="emailVerificationConfirm_title">"Verification Link Sent"</string>
+    <string name="emailVerificationConfirm_description">"Kindly check your email address.\n  Click on link in <b>Pin Intruder Alert Email</b> to start instant intruder notification."</string>
+
+    <!--antiTheftView-->
+    <string name="antiTheftView_setupPin_iconTitle">"Anti Theft"</string>
+    <string name="antiTheftView_setupPin_title">"Create PinApp Lock PIN"</string>
+    <string name="antiTheftView_setupPin_description">"Input a <b>4-digits Pin code</b> to continue. Note, choose pin code that you can easily remember."</string>
+    <string name="antiTheftView_setupPin_firstHint">"Enter Pin Code"</string>
+    <string name="antiTheftView_setupPin_secondHint">"Re-enter Pin Code"</string>
+
+    <string name="antiTheftView_title">"Anti-Theft Security"</string>
+    <string name="antiTheftView_locationTrackingTitle">"Location Tracking"</string>
+    <string name="antiTheftView_locationTrackingDescription">"Finds exact location of your lost or stolen phone"</string>
+    <string name="antiTheftView_ringMyPhoneTitle">"Ring my Phone"</string>
+    <string name="antiTheftView_ringMyPhoneDescription">"Makes a phone ring at maximum volume even on silent mode"</string>
+    <string name="antiTheftView_remoteWipeTitle">"Remote wipe"</string>
+    <string name="antiTheftView_remoteWipeDescription">"Initiates a Factory Reset to remove all your data and information"</string>
+
+    <string name="antiTheftView_locationTrackingFirstDescription">"Send a text massage with a line <b>"Locate:PIN"</b> to the phone number on a lost or stolen phone"</string>
+    <string name="antiTheftView_locationTrackingSecondDescription">"The device will be located immediately. You will receive coordinates as a Google Map link"</string>
+
+    <string name="antiTheftView_ringMyPhoneFirstDescription">"Send a text massage with a line <b>"Ring:PIN"</b> to the phone number on a lost or stolen phone"</string>
+    <string name="antiTheftView_ringMyPhoneSecondDescription">"An alarm sound will be played"</string>
+
+    <string name="antiTheftView_remoteWipeFirstDescription">"Send a text massage with a line <b>"Wipe:PIN"</b> to the phone number on a lost or stolen phone"</string>
+    <string name="antiTheftView_remoteWipeSecondDescription">"The device will be reset to a factory settings and all data/information on it (Music, Photos, videos and other personal files) will be deleted"</string>
+
+    <!--appLock-->
+    <string name="appLock_title">"Secured by Pins"</string>
+    <string name="appLock_subTitle">"Enter your PinsApp Lock Pin to continue <b>"4-digit PIN CODE"</b>"</string>
+    <string name="appLock_hint">"PIN CODE"</string>
+    <string name="appLock_forgotPin">"<u>Forgot your PIN?</u>"</string>
+    <string name="appLock_main_title">"AppLock"</string>
+    <string name="appLock_main_lockButtonTitle">"Lock App"</string>
+    <string name="appLock_main_unLockButtonTitle">"Unlock App"</string>
+    <string name="appLock_main_lockedButtonTitle">"Locked Apps"</string>
+    <string name="appLock_main_unLockedButtonTitle">"Unlocked Apps"</string>
+    <string name="appLock_forgotPin_subTitle">"Enter your correct email address to reset your PIN"</string>
+    <string name="appLock_forgotPin_sms_subTitle">"Enter the OTP code we sent to you via email or sms to continue"</string>
+    <string name="appLock_forgotPin_sms_hint">"Verification Code"</string>
+    <string name="appLock_forgotPin_sms_warning">"<b>Kindly note:</b> sms and email will be sent to both phone number and email address you used during singup process.\n\n If you do not receive verification sms and email within 15 minutes, kindly go to previous page to re-enter the correct email address you registered with."</string>
+    <string name="appLock_forgotPin_sms_error">"Failed to verify code, please check your sms or email and enter the correct code"</string>
+    <string name="appLock_forgotPin_hint">"Email address"</string>
+    <string name="appLock_forgotPin_new_pin_subTitle">"Verification Successful.\nYou can now reset your Applock PIN Code"</string>
+    <string name="appLock_forgotPin_new_pin_hint">"New PIN"</string>
+    <string name="appLock_forgotPin_sum_up_subTitle">"Your Applock PIN\n was successfully updated"</string>
+    <string name="appLock_forgotPin_mainTitle">"Recover forgot PIN"</string>
+    <string name="appLock_wrongPin_title">"The Pin Code you entered is Incorrect, kindly enter the correct Pin Code"</string>
+    <string name="appLock_forgotPin_ErrorUpdatingAccount_message">"Error updating account"</string>
+    <string name="appLock_error_id_imei_message">Account Id and imei mis match</string>
+
+    <!--general-->
+    <string name="continue_title">"Continue"</string>
+    <string name="submit_title">"Submit"</string>
+    <string name="home_title">"Home"</string>
+    <string name="nigerian_currency_short">"₦"</string>
+    <string name="okey_title">"okay"</string>
+    <string name="please_wait">"Please wait …"</string>
+    <string name="submit">"submit"</string>
+    <string name="yes">"YES"</string>
+    <string name="no">"NO"</string>
+    <string name="warning">"Warning"</string>
+    <string name="status">"STATUS"</string>
+    <string name="on">"ON"</string>
+    <string name="off">"OFF"</string>
+
+    <!--messages-->
+    <string name="error_no_internet_connection">Please Check your Internet connection</string>
+    <string name="error_not_responding">Api not responding</string>
+    <string name="error_email">"Wrong email"</string>
+    <string name="warning_exiting_app">"Are you sure you want to exit?"</string>
+    <string name="error_code_empty_message">"Provide correct code"</string>
+</resources>

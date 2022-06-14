@@ -1,0 +1,158 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_title</item>
+        <item name="colorPrimaryDark">@color/color_title</item>
+        <item name="colorAccent">@color/color_title</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoUiAppTheme"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/edit_text</item>
+        <item name="android:textSize">17sp</item>
+        <!--<item name="android:editTextBackground">@drawable/edit_text_background</item>-->
+        <!--<item name="android:editTextColor">@color/edit_text</item>-->
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+
+        <item name="colorAccent">@color/edit_text</item>
+        <item name="colorControlNormal">@color/edit_text</item>
+        <item name="colorControlActivated">@color/edit_text</item>
+    </style>
+
+    <!--TextView-->
+    <style name="TitleTextView">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/very_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SubtitleTextView">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/very_small</item>
+        <item name="android:textSize">@dimen/text_size_medium_small</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TitleWhiteTextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/very_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RowTitleTextView">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/very_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="RowAntiTheftTitleTextView">
+        <item name="android:textColor">@color/base_color</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/very_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_medium_small</item>
+    </style>
+
+    <style name="RowAntiTheftSubtitleTextView">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/very_small</item>
+        <item name="android:textSize">@dimen/text_size_medium_small</item>
+    </style>
+
+    <style name="RowSubtitleTextView">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/very_small</item>
+        <item name="android:textSize">@dimen/text_size_very_small</item>
+    </style>
+
+    <style name="RowWhiteTitleTextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/very_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_primary_button</item>
+    </style>
+
+    <style name="RowWhiteSubtitleTextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/very_small</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <!--EditText-->
+    <style name="EditTextWhiteStyle">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+    </style>
+
+    <style name="EditTextBlackStyle">
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="colorControlActivated">@android:color/black</item>
+        <item name="colorControlHighlight">@android:color/black</item>
+    </style>
+
+    <!--FloatingLabelEditText-->
+    <style name="TextAppearance.App.TextInputLayout"
+            parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        <!-- reference our hint & error styles -->
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="errorTextAppearance">@style/ErrorText</item>
+        <item name="android:textColorHint">@color/base_color</item>
+        <item name="colorControlNormal">@color/base_color</item>
+        <item name="colorControlActivated">@color/base_color</item>
+        <item name="colorControlHighlight">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="HintText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

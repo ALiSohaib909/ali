@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/profile_background"
+    >
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="446dp"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="446dp"
+        android:src="@drawable/renew_subscription_popup"/>
+
+
+  
+    
+    <Button
+        android:layout_width="176dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/renew_subscription"
+        android:id="@+id/subscribe"/>
+
+</RelativeLayout>
+</RelativeLayout>

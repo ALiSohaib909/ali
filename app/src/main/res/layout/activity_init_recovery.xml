@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/profile_background"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/contact_toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_height="35dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back_btn"
+            android:id="@+id/back"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/home_icon"
+            android:id="@+id/home"/>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/ten"
+            android:paddingRight="@dimen/ten"
+            android:paddingTop="@dimen/twenty_five">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recovery_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recovery Mode"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:paddingRight="10dp"
+        android:gravity="bottom"/>
+
+
+    <RadioGroup
+        android:id="@+id/recovery_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <RadioButton
+            android:id="@+id/reset_code"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="@android:color/white"
+            android:text="@string/reset_text" />
+
+        <RadioButton
+            android:id="@+id/question"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/question_text" />
+    </RadioGroup>
+
+</LinearLayout>
+
+
+            <!-- Password Label -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/ten"
+                android:layout_marginTop="@dimen/ten"
+                android:theme="@style/TextLabel"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse">
+
+                <EditText
+                    android:id="@+id/initRecoveryEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email/Pin"
+                    android:inputType="textWebEmailAddress"
+                    android:textColor="#fff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <!-- Submit Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSubmitInitRecovery"
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/twenty_five"
+                android:background="@drawable/transperent"
+                android:padding="@dimen/ten"
+                android:text="Submit"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

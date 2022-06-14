@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/overview"
+            android:icon="@drawable/about_icon"
+            android:title="About PinsApp" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile_icon"
+            android:title="My Account" />
+
+        <item
+            android:id="@+id/settings"
+            android:visible="false"
+            android:icon="@drawable/settings_icon"
+            android:title="Settings" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help_icon"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/terms_conditions"
+            android:icon="@drawable/conditions_icon"
+            android:title="Terms and Conditions" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Log Out" />
+
+        <item
+            android:id="@+id/mydashboard"
+            android:icon="@drawable/dash_board_icon"
+            android:title="My Dashboard" />
+
+<!--
+        <item
+            android:id="@+id/pinsIntruder"
+            android:icon="@drawable/ic_menu_item_intruder"
+            android:title="Pins Intruder" />
+-->
+
+        <item
+            android:id="@+id/antiTheft"
+            android:icon="@drawable/ic_anti_theft"
+            android:title="Anti Theft" />
+
+        <item
+            android:id="@+id/appLock"
+            android:icon="@drawable/ic_anti_theft"
+            android:title="App Lock" />
+    </group>
+
+
+</menu>

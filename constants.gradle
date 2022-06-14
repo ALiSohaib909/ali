@@ -1,0 +1,25 @@
+ext.urls = [
+        developServerUrl     : '"https://stage.api.pinsmobilesecurity.com/"',
+        productionServerUrl  : '"https://api.pinssolutions.com/"',
+        termsAndConditionsUrl: '"https://pinsmobilesecurity.com/terms/"',
+        helpUrl              : '"https://pinsmobilesecurity.com/help-centre/"',
+        dashboardUrl         : '"https://portal.pinsmobilesecurity.com/#/auth"',
+        privacyUrl           : '"https://pinsmobilesecurity.com/privacy/"'
+]
+
+ext.authorities = [
+        developServerAuthority   : '"stage.api.pinsmobilesecurity.com"',
+        productionServerAuthority: '"api.pinssolutions.com"'
+]
+
+ext.tokens = [
+        developToken   : '"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjIzNDExMTExMTExMTExIiwiZmlyc3RfbmFtZSI6IlBhdmxvIiwibGFzdF9uYW1lIjoiTWVsbnlrIiwiYXVkIjoicGluc21vYmlsZXNlY3VyaXR5LmNvbSIsImV4cCI6MTY2NjkxMTYwMCwiaXNzIjoiUGlucyBBcHAgVG9rZW4iLCJpYXQiOjE2MzU0MzgyMDMsImFwcCI6InBpbnMiLCJlbWFpbCI6InBhd2xvLm1lbG55ay5hcHBsYW5kZW8ifQ.96JrnJB4T5Wb3nIYhazkNBmHNBqTRqCLyYOHzHuLsMw"',
+        productionToken: '"Basic eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJQaW5zIFNvbHV0aW9uIiwiaWF0IjoxNTMzNTk0NTUxLCJleHAiOjE1OTY3NTI5NTEsImF1ZCI6InBpbnNzb2x1dGlvbnMuY29tIiwic3ViIjoiYXBwX3Rva2VuIiwiYXBwIjoicGlucyJ9.c1og1lbTA59VYiBx1KqLMY8rIkK6o62Ya2_X_oZCe9s"'
+]
+
+ext.consts = [
+        base64encodePublicKey: '"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2Vw/IB6z0eRbFAtGLH6wMT8f6lktNsvgderXQ+6Vp05cNN+CE1RP1EaX2QXj5Qgk3aj+tXxvGfE/AbexoPaUBSnC+pHUHg3bK93bNap1k62Vd3M0+g3RcJ44CDXe8qKYndctvDCD+r+SI3wCwQddQlwEA7rcvahpxV16s6waf1GV8RBh+KfH2trdKdfcODDgq6h0ZnDJXjkY4hLHjR+1sGIQlqCdL3vCFFaZuGwEvxX84+gZZUYaey5crJy/QEKhD9Tcb7Oub1rMthw84nIcI91uZR5hIiGPmgeUaRvvq/1/T5KIyx7VyJ6BKu82ylq17jwVCNVDHOx70XYL9VovVQIDAQAB"',
+        ikarusServicePassword: '"12341234aa"',
+        smsReceiverNumber: '"+12058800651"',
+        appCenterSecret: '"1238ff44-d3ba-4aeb-accb-d06520daf624"'
+]

@@ -1,0 +1,110 @@
+{
+  "project_info": {
+    "project_number": "76513394642",
+    "firebase_url": "https://pins-api-1502223403013.firebaseio.com",
+    "project_id": "pins-api-1502223403013",
+    "storage_bucket": "pins-api-1502223403013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76513394642:android:3deddb350ec03e39",
+        "android_client_info": {
+          "package_name": "com.pins.infinity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76513394642-29p1569ft79jgm0sf1ps8mhrgl7qqrcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pins.infinity",
+            "certificate_hash": "8896d81a2eb6de17738b4f62eeb0ccbf3b4dd7e9"
+          }
+        },
+        {
+          "client_id": "76513394642-pb9s5vo3vnageafvcem3vmgotqvsiveb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pins.infinity",
+            "certificate_hash": "48294e9ad63209e90e2520ad32328d00e32dedb7"
+          }
+        },
+        {
+          "client_id": "76513394642-e9hr4cnoupc5psa56qev360l3nrl19ii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pins.infinity",
+            "certificate_hash": "64a142c64188f36663857f643a6a014a6cacccd5"
+          }
+        },
+        {
+          "client_id": "76513394642-tgpgda28du9l1isp7lokele6ua01p7f1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "76513394642-tgpgda28du9l1isp7lokele6ua01p7f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByszTAfjYtPvaGkASKFseXy_v8DYVV9Rc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76513394642-tgpgda28du9l1isp7lokele6ua01p7f1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76513394642:android:7d0ea62953638909",
+        "android_client_info": {
+          "package_name": "com.pinsintegratedsolutions.pinsmobilesecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76513394642-tgpgda28du9l1isp7lokele6ua01p7f1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "76513394642-tgpgda28du9l1isp7lokele6ua01p7f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByszTAfjYtPvaGkASKFseXy_v8DYVV9Rc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

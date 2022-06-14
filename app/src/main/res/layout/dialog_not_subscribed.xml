@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/transparent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="@drawable/rounded_button_white"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:minHeight="200dp"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Your current plan selection does not include this feature. Please buy premium plan to use this feature."
+            android:focusable="false"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="220dp"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:id="@+id/ok"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:text="OK"
+            android:background="@drawable/recoveryselected" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

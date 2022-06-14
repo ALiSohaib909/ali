@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/profile_background"
+    >
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="446dp"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="446dp"
+        android:src="@drawable/active_subscription_popup"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="17sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="Your subscription will expire on 23/10/2017"
+        android:paddingTop="100dp"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dashboard_subs"
+        android:id="@+id/go_to_dashboard"/>
+
+</RelativeLayout>
+</RelativeLayout>

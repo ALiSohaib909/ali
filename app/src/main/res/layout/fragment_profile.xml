@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:background="@drawable/profile_background"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:visibility="gone"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/ten"
+            android:paddingRight="@dimen/ten"
+            android:paddingTop="@dimen/five">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="@dimen/hundred"
+                    android:layout_height="@dimen/hundred"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_default_profile_picture"
+                    app:civ_border_color="#FFFFFF"
+                    app:civ_border_width="2dp" />
+
+                <com.theartofdev.edmodo.cropper.CropImageView
+                    android:id="@+id/cropImageView"
+                    android:layout_width="@dimen/hundred"
+                    android:layout_height="@dimen/hundred"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/fifteen"
+                    app:cropBackgroundColor="#88AA66CC"
+                    app:cropBorderCornerColor="@android:color/holo_blue_bright"
+                    app:cropBorderCornerOffset="0dp"
+                    app:cropBorderCornerThickness="5dp"
+                    app:cropBorderLineColor="@android:color/holo_green_light"
+                    app:cropBorderLineThickness="1dp"
+                    app:cropGuidelines="off"
+                    android:visibility="gone"
+                    app:cropGuidelinesColor="@android:color/holo_red_dark"
+                    app:cropInitialCropWindowPaddingRatio="0"
+                    app:cropSnapRadius="0dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--  Name Label -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ten"
+                    android:layout_marginTop="@dimen/ten"
+                    android:theme="@style/TextLabel"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse">
+
+                    <EditText
+                        android:id="@+id/input_fname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="First Name"
+                        android:inputType="textCapWords"
+                        android:textColor="#fff" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <!--  LName Label -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ten"
+                    android:layout_marginTop="@dimen/ten"
+                    android:theme="@style/TextLabel"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse">
+
+                    <EditText
+                        android:id="@+id/input_lname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Last Name"
+                        android:inputType="textCapWords"
+                        android:textColor="#fff" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <!-- Email Label -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ten"
+                    android:layout_marginTop="@dimen/ten"
+                    android:theme="@style/TextLabel"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse">
+
+                    <EditText
+                        android:id="@+id/input_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email Address"
+                        android:inputType="textEmailAddress"
+                        android:textColor="#fff" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Password Label -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ten"
+                    android:layout_marginTop="@dimen/ten"
+                    android:theme="@style/TextLabel"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse">
+
+                    <EditText
+                        android:id="@+id/mob_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Mobile Number"
+                        android:inputType="number"
+
+                        android:textColor="#fff" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Password Label -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ten"
+                    android:layout_marginTop="@dimen/ten"
+                    android:theme="@style/TextLabel"
+                    android:visibility="gone"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium.Inverse">
+
+                    <EditText
+                        android:id="@+id/input_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:maxLength="10"
+                        android:textColor="#fff" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Signup Button -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_update"
+                    android:layout_width="227dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/twenty_five"
+                    android:background="@drawable/transperent"
+                    android:text="Edit"
+                    android:textColor="#fff" />
+                <!-- Change Password Button -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_change_password"
+                    android:layout_width="227dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/ten"
+                    android:background="@drawable/transperent"
+                    android:text="Change Password"
+                    android:textColor="#fff" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
