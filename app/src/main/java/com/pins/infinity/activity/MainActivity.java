@@ -358,7 +358,7 @@ public class MainActivity extends BaseMainActivity
             buildGoogleApiClient();
         }
 
-        boolean active = deviceManger.isAdminActive(compName);
+        /*boolean active = deviceManger.isAdminActive(compName);
         if (!DeviceUtils.isAppDeviceAdministrator(this)) {
             Intent intent = new Intent(DevicePolicyManager
                     .ACTION_ADD_DEVICE_ADMIN);
@@ -403,7 +403,7 @@ public class MainActivity extends BaseMainActivity
                     userFinishInitialSetup();
                 }
             }
-        }
+        }*/
     }
 
     private void userFinishInitialSetup() {
@@ -545,9 +545,10 @@ public class MainActivity extends BaseMainActivity
       /*  else if (id == R.id.pinsIntruder) {
             showPinsIntruder(super.isEmailVerified());
         }*/
-        else if (id == R.id.antiTheft) {
+       /* else if (id == R.id.antiTheft) {
             showAntiTheft(LockAction.ANTI_THEFT);
-        } else if (id == R.id.appLock) {
+        } */
+        else if (id == R.id.appLock) {
             showAntiTheft(LockAction.APP_LOCK);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -47,10 +47,10 @@
             android:title="Pins Intruder" />
 -->
 
-        <item
+      <!--  <item
             android:id="@+id/antiTheft"
             android:icon="@drawable/ic_anti_theft"
-            android:title="Anti Theft" />
+            android:title="Anti Theft" />-->
 
         <item
             android:id="@+id/appLock"
